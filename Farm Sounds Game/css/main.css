@@ -19,14 +19,14 @@
   }
  .media {
 	  flex-shrink:1;
-	  height:50px;
-	  width:50px;
+	  height:100px;
+	  width:100px;
 	  margin:20px;
   }
 .mediacontainer {
 	  display:flex;
 	  width:auto;
-	  height:50px;
+	  height:100px;
 	  margin:10px;
 	  flex-direction:row;
 	  margin:auto
@@ -50,15 +50,15 @@
     .mediacontainer {
 	  display:flex;
 	  width:auto;
-	  height:50px;
+	  height:100px;
 	  margin:10px;
 	  flex-direction:row;
   }
   .media {
 	  flex-shrink:1;
 	  height:100%;
-	  width:50px;
-	  margin:10px;
+	  width:100px;
+	  margin:auto;
   }
 
 }
