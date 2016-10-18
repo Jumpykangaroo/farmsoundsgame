@@ -43,7 +43,7 @@
         <icon src="images/PNGs/icon29X29.png" platform="ios" width="29" height="29"/>
         <icon src="images/PNGs/icon58X58.png" platform="ios" width="58" height="58"/>
         <icon src="images/PNGs/icon87X87.png" platform="ios" width="87" height="87"/>
-        <splash src="images/PNGs/splash750x1136.png" platform="ios" width="640" height="1136"/>
+        <splash src="images/PNGs/splash640x1136.png" platform="ios" width="640" height="1136"/>
         <splash src="images/PNGs/splash750x1334.png" platform="ios" width="750" height="1334"/>
         <splash src="images/PNGs/splash1242x2208.png" platform="ios" width="1242" height="2208"/>
         <splash src="images/PNGs/splash2208x1242.png" platform="ios" width="2208" height="1242"/>
