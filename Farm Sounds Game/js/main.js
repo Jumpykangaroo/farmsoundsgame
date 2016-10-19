@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});*/
 	var helpaudio = "#help1";
 	$("audio").parent().children("img").click(function(){
-		
+		$(this).parent().children("audio").each(function(){this.currentTime=0;});
   		$(this).parent().children("audio").trigger("play");
 		$(this).parent().addClass("clicked");
 		$(this).parent().one("animationend",function(){
@@ -27,6 +27,7 @@ $(document).ready(function(){
 		}
 	});
 	$("#help").click(function(){
+		$(helpaudio).each(function(){this.currentTime=0;});
 		$(helpaudio).trigger("play");
 		$(this).parent().addClass("clicked");
 		$(this).parent().one("animationend",function(){
